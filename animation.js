@@ -1,5 +1,4 @@
-<script>
-	document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("[data-animation-wrap]").forEach((container) => {
       gsap.set(container, { opacity: 1 });
 
@@ -75,4 +74,3 @@
       });
     });
 });
-</script>
